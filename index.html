@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Pessoal</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="page-container">
+    <div class="header-extern-container">
+      <div class="header-intern-container">
+
+        <h1 class="page-title">João Pedro Borges Santos - <span style="color:gray">Portfólio Pessoal</span></h1>
+        <hr>
+
+      </div>
+    </div>
+
+    <div id="body-container">
+
+      <div class="navigation-container">
+        <ul class="navigation-list">
+          <li id="sobreBtn" class="navigation-item" onclick="showSobre(this)">Sobre Mim</li>
+          <li id="formacaoBtn" class="navigation-item" onclick="showFormacao(this)">Formação Educacional</li>
+          <li id="portfolioBtn" class="navigation-item" onclick="showPortfolio(this)">Portfólio</li>
+          <li id="contatoBtn" class="navigation-item" onclick="showContato(this)">Contato</li>
+        </ul>
+      </div>
+
+      <div class="topics" id="sobre">
+        <div class="topics-header">
+          <div class="topics-header-marker"></div>
+          <h5 class="topics-header-text">SOBRE MIM</h5>
+          <div class="topics-header-marker"></div>
+        </div>
+        <div class="topics-body">
+          <p class="about-me">Estou cursando a graduação em Análise e Desenvolvimento de Sistemas.</p>
+          <p class="about-me">
+            Atualmente faço estágio na empresa Quality Systems, de Uberlândia/MG.</p>
+          <p class="about-me">Tenho contato com a área desenvolvimento a cerca de 1 ano e
+            meio, estudando e desenvolvendo projetos. </p>
+          <p class="about-me">
+            Tenho um hobbie, e diria até que é minha segunda paixão, além da programação, que é a música. Atualmente, no
+            tempo
+            livre, me apresento com uma banda de pagode e samba nos
+            bares da cidade.
+          </p>
+          <p class="about-me">
+            Outros duas coisas que eu tenho como hobbies é jogar jogos eletrônicos e cozinhar.
+          </p>
+        </div>
+      </div>
+
+      <div class="topics hide" id="formacao">
+        <div class="topics-header">
+          <div class="topics-header-marker"></div>
+          <h5 class="topics-header-text">EDUCAÇÃO</h5>
+          <div class="topics-header-marker"></div>
+        </div>
+        <div class="topics-body">
+          <h5>Graduações:</h5>
+          <p class="text-justify"><span class="me-3">•</span><span>Bacharelado em Direito</span><span> |
+              Completo – encerrado em 06/2020 | ESAMC</span></p>
+          <p class="text-justify"><span class="me-3">•</span><span>Tecnólogo em Análise e Desenvolvimento de
+              Sistemas </span><span> | Cursando - iniciado em 03/2023 (data prevista para conclusão:
+              06/2025) | UNINTER</span></p>
+          <!-- <h5 class="mt-7px">Cursos Profissionalizantes:</h5>
+          <p class="text-justify"><span class="me-3">•</span><span>Desenvolvimento Web Full-Stack
+              (58h aula - com emissão de certificados) | Completo – encerrado em 02/2023 | Igor Oliveira
+              (ProgramadorBR) – Plataforma Hotmart</span></p>
+          <p class="text-justify"><span class="me-3">•</span><span>C# - Programação Orientada a Objetos (38h aula) |
+              Cursando –
+              iniciado em 04/2023 | Nelio Alves – Plataforma Udemy </span></p>
+          <p class="text-justify"><span class="me-3">•</span><span>TypeScript (14h aula) | Cursando –
+              iniciado em 03/2023 | Matheus Battisti – Plataforma Udemy </span></p>
+          <p class="text-justify"><span class="me-3">•</span><span>React.js (30h aula) | Cursando –
+              iniciado em 03/2023 | Matheus Battisti – Plataforma Udemy </span></p> -->
+          <h5>Idiomas:</h5>
+          <p class="text-justify"><span class="me-3">•</span><span>Português – Fluente/Nativo</span></p>
+          <p class="text-justify"><span class="me-3">•</span><span>Inglês – Escrita avançada |
+              Conversação intermediária (Fisk, 5
+              anos,
+              conclusão em 06/2015)</span></p>
+        </div>
+      </div>
+
+      <div class="topics hide" id="portfolio">
+        <div class="topics-header">
+          <div class="topics-header-marker"></div>
+          <h5 class="topics-header-text">PORTFÓLIO</h5>
+          <div class="topics-header-marker"></div>
+        </div>
+        <div class="topics-body">
+          <p class="portfolio-url"><a href="https://github.com/joaopedrobrgs?tab=repositories">Repositórios GitHub</a>
+          </p>
+          <p class="portfolio-url"><a href="https://editordeimagens-joaopedrobrgs.vercel.app/">Ferramenta de edição de
+              imagens</a>
+        </div>
+      </div>
+
+      <div class="topics hide" id="contato">
+        <div class="topics-header">
+          <div class="topics-header-marker"></div>
+          <h5 class="topics-header-text">ENVIAR MENSAGEM</h5>
+          <div class="topics-header-marker"></div>
+        </div>
+        <div class="topics-body">
+          <form class="contact-form" id="form-contact">
+            <label for="name">Nome: </label>
+            <input type="text" class="input-text" name="name" required>
+            <label>E-mail: </label>
+            <input type="email" class="input-text" name="email" required>
+            <label for="message">Mensagem: </label>
+            <textarea type="text" class="input-text" name="message"
+              placeholder='Exemplo: "Estou entrando em contato para..."' required></textarea>
+            <input type="submit" id="submit-btn">
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+
+
+</body>
+
+</html>

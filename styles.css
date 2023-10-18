@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+p {
+  margin: 0
+}
+
+h6 {
+  font-weight: 700;
+  /* text-decoration: underline; */
+}
+
+.page-container {
+  margin: 0 10px;
+}
+
+.body-container{
+  max-width: 1024px;
+  margin: auto;
+}
+
+.header-extern-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-extern-container a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.header-extern-container h1 {
+  margin: 0;
+}
+
+.header-extern-container p {
+  margin: 15px 0;
+}
+
+.header-intern-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-title{
+  color: #008080;
+  text-align: end;
+}
+
+.page-title span{
+  color: #008080;
+}
+
+.navigation-container{
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navigation-list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.navigation-item{
+  margin: 0 10px;
+  padding: 10px 0;
+  background-color: #008080;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.navigation-item:hover{
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.contact-content {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.contact-content img {
+  height: 10px;
+  padding-right: 2px;
+}
+
+.contact-content i {
+  font-size: 10px;
+}
+
+.topics {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 1em;
+  padding-top: 0;
+  border: 2px solid #008080;
+  border-top: none;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.topics-header {
+  display: flex;
+  width: 100%;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.topics-header-marker {
+  display: inline-block;
+  background-color: #008080;
+  width: 50px;
+  height: 8px;
+  margin: 0 8px;
+}
+
+.topics-header-text {
+  display: inline-block;
+  margin: 0;
+  color: #008080;
+}
+
+.topics-body {
+  /* text-align: center; */
+  /* max-width: 500px; */
+  margin: auto;
+}
+
+.topics-body h5 {
+  margin: 7px 0;
+  text-align: center;
+}
+
+.topics-body p {
+  margin: 3px 0;
+}
+
+.about-me{
+  text-indent: 2em;
+}
+
+/* .topics-body img {
+  height: 15px;
+  padding-left: 1.25cm;
+} */
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+
+.contact-form input{
+  text-align: center;
+}
+
+.contact-form textarea{
+  padding: 5px 10px;
+  min-height: 100px;
+  max-height: 150px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.input-text{
+  margin-bottom: 10px;
+}
+
+/* .nodejs{
+height: 30px !important;
+width: 15px !;
+padding-left: 1.25cm;
+} */
+
+.outline-text-container {
+  position: relative;
+}
+
+.outline-text-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgba(200, 200, 200, 0.4);
+  font-size: smaller;
+}
+
+.portfolio-url{
+  text-align: center;
+}
+
+/* Gerais */
+
+.text-justify{
+  text-align: justify;
+}
+
+.text-indent {
+  text-indent: 1.25cm;
+}
+
+.text-indent-2 {
+  text-indent: 2.5cm;
+}
+
+.mt-7px {
+  margin-top: 15px;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.me-3{
+  margin-right: 5px;
+}
+
+.hide{
+  display: none !important;
+}
