@@ -83,6 +83,10 @@ h6 {
   list-style: none;
 }
 
+.navigation-list a{
+  text-decoration: none;
+}
+
 .navigation-item{
   margin: 0 10px;
   padding: 10px 0;
@@ -165,11 +169,6 @@ h6 {
   text-indent: 2em;
 }
 
-/* .topics-body img {
-  height: 15px;
-  padding-left: 1.25cm;
-} */
-
 .contact-form{
   display: flex;
   flex-direction: column;
@@ -192,12 +191,6 @@ h6 {
 .input-text{
   margin-bottom: 10px;
 }
-
-/* .nodejs{
-height: 30px !important;
-width: 15px !;
-padding-left: 1.25cm;
-} */
 
 .outline-text-container {
   position: relative;
